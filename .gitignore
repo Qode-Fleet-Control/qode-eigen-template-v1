@@ -1,3 +1,11 @@
 .env
 .fleet/
 .fleet-deploy.log
+*.log
+
+# --- CMake / CTest ---
+build/
+build-*/
+cmake-build-*/
+CMakeCache.txt
+Testing/
